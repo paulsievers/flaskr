@@ -4,6 +4,6 @@ python:
 install:
   - pip install -r test_requirements.txt
 script:
-  - pytest --cov=app/
+  - pytest --cov=flaskr/
 after_success:
   - coveralls
